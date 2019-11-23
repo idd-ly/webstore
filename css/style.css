@@ -1,0 +1,35 @@
+/* IMPORTANT: THIS IS YOUR GENERAL PAGE, ONLY USE FOR HEADINGS + FOOTERS + FORMAT [ FOR WHAT'S STAYING ON YOUR PAGE ] 
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Font Imports
+–––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+/* General Formatting
+–––––––––––––––––––––––––––––––––––––––––––––– */ 
+body {
+  font-family: "Nunito Sans",sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1.65;
+  background: #efefef;
+}
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Menu Stuff
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––– */
+h1 {
+  
+font-family: montserrat, sans-serif;
+font-weight: 500;
+font-style: normal;
+color: #1c1b1b;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+}
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Media Queries + Grids
+–––––––––––––––––––––––––––––––––––––––––––––– */
