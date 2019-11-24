@@ -1,0 +1,11 @@
+/* Content goes here only for single pages 
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Top Content Wrapper
+–––––––––––––––––––––––––––––––––––––––––––––– */
+.announcment-wrap {
+  padding: 8px 10px;
+  font-family:  Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
