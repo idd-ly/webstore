@@ -9,3 +9,8 @@
   color: white;
   background-color: black;
 }
+img {
+    border: 0;
+    height: auto;
+    width: 100%;
+  }
