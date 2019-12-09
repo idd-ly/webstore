@@ -7,7 +7,7 @@
 // An Object holds multiple variables (properties) together
 
 //data
-
+/*
 const product0 = {
   name: `Tyler The Creator - Igor`,
   price: `$30.00`,
@@ -83,9 +83,11 @@ return `<article class="intro-artstyle">
 
 
 /************* EXECUTABLE *************/
+/*
 document.getElementById (`products`).innerHTML =getProductAsHtmlString (product0)
 document.getElementById (`products`).innerHTML += getProductAsHtmlString (product1)
 document.getElementById (`products`).innerHTML += getProductAsHtmlString (product2)
 document.getElementById (`products`).innerHTML += getProductAsHtmlString (product3)
 document.getElementById (`products`).innerHTML += getProductAsHtmlString (product4)
 document.getElementById (`products`).innerHTML += getProductAsHtmlString (product5)
+*/
