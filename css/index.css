@@ -1,18 +1,186 @@
-/* Content goes here only for single pages 
+/* IMPORTANT: THIS IS YOUR HOME PAGE, NOT YOUR STYLE PAGE SEND URR DESIGN HERE
 –––––––––––––––––––––––––––––––––––––––––––––– */
-/* Top Content Wrapper
+/* Main Content Images
 –––––––––––––––––––––––––––––––––––––––––––––– */
-.announcment-wrap {
-  padding: 8px 10px;
-  font-family:  Arial, Helvetica, sans-serif;
+.container {
+  background: var(--main-bg-color);
   text-align: center;
-  color: white;
-  background-color: black;
-  box-shadow: 0px 5px 5px #999999;
 }
+.intro-artstyle {
+  background-color: white;
+  margin-top: 1em;
+  border: 3px solid var(--foreground-color);
+}
+
 img {
-    border: 0;
-    height: auto;
-    width: 100%;
+  border: 0;
+  height: auto;
+  width: 100%;
+}
+.t-cre {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+.m-riv {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+.r-jes {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+.b-sat {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+.p-crt {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+.f-gbs {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 200px;
+  padding: 0;
+  margin-top: 3em;
+  border: 3px solid var(--foreground-color);
+}
+
+/* Typography 
+–––––––––––––––––––––––––––––––––––––––––––––– */
+/* Anton (H2) is used for Titles, Quicksand is used for the navigation/default text, Museo Sans (Authors), Rift Soft is only used for aesthetic reasons
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+.title {
+  margin-left: 10px;
+  margin-top: 2.5px;
+  display: block;
+  padding: 0.5em;
+  border: 3px solid var(--foreground-color);
+  font-size: 1.5em;
+}
+.pstyle {
+  font-family: "Montserrat";
+  font-weight: 500;
+  padding: 1.5em;
+  color: black;
+  font-size: 1.3em;
+}
+.pricealbum {
+  padding: 1em;
+  margin-top: -2em;
+  font-family: museo-sans, sans-serif;
+  font-weight: 500;
+  color: var(--foreground-color);
+  text-decoration:  underline 3px;
+  font-size: 1.4em;
+}
+.font-style {
+
+font-family: rift-soft, sans-serif Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+margin-top: 1em;
+}
+.grid-lol {
+  padding: 20px;
+}
+.quatity-wrap {
+  margin-top: 8px ;
+}
+
+/* Media + Grids
+–––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-width:500px) {
+  .grid-lol {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 1em;
+  }
+  .container {
+      padding: 20px 20px 20px 20px;
   }
 
+  .monthly {
+
+      margin: 1px;
+      font-size: 2.3em;
+  }
+}
+
+
+
+@media screen and (min-width:768px) {
+  .grid-lol {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 1em;
+  }
+  .monthly {
+      font-size: 2em;
+  }
+  .title {
+     margin: 5px;
+  }
+  .t-cre {
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  .m-riv {
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  .r-jes {
+      margin-top: 20px;
+      margin-left: 12px;
+      margin-right: 4.5px;
+  }
+  .b-sat {
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  .p-crt {
+      margin-top: 20px;
+      margin-left: 5px;
+  }
+  .f-gbs {
+      margin-top: 21px;
+      margin-left: 4px;
+  }
+}
+@media screen and (min-width:10px) {
+      .intro-artstyle {
+          padding: 1em;
+      }
+      .container {
+          padding: 10px;
+      }
+      .grid-lol {
+          display: grid;
+          grid-template-rows: 1fr 1fr ;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 1em;
+      }
+}
