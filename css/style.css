@@ -147,6 +147,12 @@ h2 {
     text-transform: capitalize;
 }
 
+header-title  {
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+
 .idproduct{
     text-align: right;
 }
@@ -265,6 +271,10 @@ h2 {
             font-size: 0.98em;
         }
     }
+
+.btn-view {
+    display: inline-block;
+}
 /* 
 
 –––––––––––––––––––––––––––––––––––––––––––––– */
