@@ -15,14 +15,13 @@ const products = [
     description: `Tyler, the Creator’s sixth album is impressionistic and emotionally charged, the result of an auteur refining his style and baring more of his soul than ever before.`,
     qty: `IN STOCK`,
     idty: `Product 012`,
-  }, 
-  {
+  }, {
   name: `Frank Ocean - Moon River`,
   price: `50.00`,
   img: `img/moonriver`,
   description: `Frank Ocean's cover of Andy William's original composition "Moon River" delivers a new twist of vocals harmonies within the current era of music.`,
   qty: `OUT OF STOCK`,
-  idty:  `Product 013`
+  idty:  `Product 013`,
   },
 
 {
@@ -211,22 +210,23 @@ return `<article class="intro-artstyle">
 }
 */
 
-function getProductAsHtmlString (Product) {
-return`		<article class="intro-artstyle">
+function getProductAsHtmlString (Prod) {
+return`	
+	<article class="intro-artstyle">
 <div class="idproduct">
-<h2 class="identificationnumber">${Product.idty}</h2>
+<h2 class="identificationnumber">${Prod.idty}</h2>
 </div>
 <div class="bg-color">
   <a href="review.html"><img alt="intro" class="t-cre" src="img/tylerevolution.jpg"></a>
 </div>
 <div class="quatity-wrap">
-  <h2 class="quantitynumber">${Product.qty}</h2>
+  <h2 class="quantitynumber">${Prod.qty}</h2>
 </div>
-<h2 class="title"><a href="review.html">${Product.name}</a></h2>
+<h2 class="title"><a href="review.html">${Prod.name}</a></h2>
 <p class="inr pstyle>${Product.description} </p>
 <p class="priceablum">${Product.price}</p>
-</article>`
-};
+</article>`;
+}
 
 
 
@@ -235,13 +235,11 @@ return`		<article class="intro-artstyle">
 
 /************* function render *************/
 
-function renderProducts (arrToRender) {
-  // Connect the products here loser
-  const arrOfHtmlProducts = arrToRender.map (getProductAsHtmlString); 
-  const strOffHtmlProducts = arrOfHtmlProducts.join (`\n`);
-
-  document.getElementById(`products`.innerHTML) = strOffHtmlProducts;
+function renderProducts(arr) {
+  document.getElementById('products').innerHTML = arr.map(getProductAsHtmlString).join('');
 }
+
+renderProducts(products);
 
 
 
