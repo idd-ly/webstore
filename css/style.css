@@ -135,6 +135,13 @@ a:hover
     font-size: 1.2em;
     box-sizing: border-box;
 }
+.work-lmao {
+    margin-left: 11px;
+}
+.loser-work {
+    font-family: 'Anton', Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -272,9 +279,7 @@ header-title  {
         }
     }
 
-.btn-view {
-    display: inline-block;
-}
+
 /* 
 
 –––––––––––––––––––––––––––––––––––––––––––––– */
