@@ -241,6 +241,24 @@ function renderProducts(arr) {
 
 renderProducts(products);
 
+function isMatchingName(prodNme) {
+  // Trim the input of white space, then uppercase it, then check if it's included
+  if (prodNme.name.toUpperCase().includes(this.trim().toUpperCase())) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function loadProductByName(event) {
+  const nameImSearchingFor = event.target.value; // Get the value from the field
+  renderProducts(products.filter(isMatchingName, nameImSearchingFor));
+}
+
+
+document.getElementById('productName').addEventListener('input', loadProductByName);
+
+
 
 
 
